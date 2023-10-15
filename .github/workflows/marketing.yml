@@ -8,7 +8,7 @@ on:
       - 'mfp/packages/marketing/**'
 defaults:
   run:
-    working-directory: mfp/marketing/container
+    working-directory: mfp/packages/marketing
 jobs:
   build:
     runs-on: ubuntu-latest
